@@ -39,3 +39,16 @@ public static void equals(Line l1, Line l2){
             System.out.println("The lines are not equal in length");
         }
     }
+
+
+public static void compareTo(Line l1, Line l2){
+        if (l1.lineLength() > l2.lineLength()){
+            System.out.println("The First Line is longer than the Second Line ");
+        }
+        else if (l2.lineLength() > l1.lineLength()){
+            System.out.println("The Second Line is longer than the First line ");
+        }
+        else{
+            System.out.println("Both the lines are equal in length");
+        }
+    }
